@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.services.myapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServicesActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ApointmenActivity" />
+        <activity android:name=".CustomActivity" />
+        <activity android:name=".UsersActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".ViewappointmentsActivity" />
+        <activity android:name=".viewFraudreports" />
+        <activity android:name=".ViewTenders" />
+        <activity android:name=".ReportFraudActivity" />
+        <activity android:name=".TenderDetails" />
+        <activity android:name=".CustomAdpterFraud" />
+        <activity android:name=".UsersFraud" />
+        <activity android:name=".ActivityDetailsFraud"></activity>
+    </application>
+
+</manifest>

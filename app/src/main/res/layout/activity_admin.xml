@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="#1c1e21"
+        android:text="Narok County Services"
+        android:textColor="#efd408"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="156dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:background="#ded148"
+        android:text="View Appointments"
+        android:textColor="#487625"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btntender"
+        android:layout_width="157dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btn5"
+        android:background="#2c4d11"
+        android:text="VIEW TENDERS"
+        android:textColor="#ae062d"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="164dp"
+        android:layout_height="98dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="131dp"
+        android:background="#99191d"
+        android:text="View Fraud"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

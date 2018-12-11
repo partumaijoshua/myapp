@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#443b073b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportFraudActivity">
+
+    <EditText
+        android:id="@+id/btnfraud3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnfraud2"
+        android:layout_marginTop="154dp"
+        android:ems="10"
+        android:hint="Enter ID"
+        android:inputType="number"
+        android:textColor="#6b252e"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/btnfraud2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnfraud4"
+        android:layout_marginTop="217dp"
+        android:ems="10"
+        android:hint="Enter Phone"
+        android:inputType="phone"
+        android:textColor="#6b252e"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/btnsub5"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnfraud3"
+        android:layout_marginBottom="58dp"
+        android:background="#53190c"
+        android:text="Submit"
+        android:textColor="#f7f9fa" />
+
+    <EditText
+        android:id="@+id/btnfraud1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnfraud3"
+        android:layout_alignStart="@+id/btnfraud3"
+        android:layout_marginBottom="-154dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:textColor="#6b252e"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/btnfraud6"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnfraud3"
+        android:layout_marginTop="11dp"
+        android:background="#224915"
+        android:text="Report Fraud"
+        android:textColor="#22f7f9fa"
+        android:textColorHint="#ce1943"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/btnfraud4"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="180dp"
+        android:layout_marginStart="56dp"
+        android:ems="10"
+        android:hint="Type of Fraud"
+        android:inputType="textPersonName"
+        android:textColor="#6b252e"
+        android:textColorHint="#ffffff" />
+
+
+
+</RelativeLayout>

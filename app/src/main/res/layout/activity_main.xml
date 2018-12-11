@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#338269a9"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/tvmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvphone"
+        android:layout_below="@+id/tvphone"
+        android:ems="10"
+        android:hint="Email "
+        android:inputType="textEmailAddress"
+        android:textColor="#8b1d11"
+        android:textColorHint="#f5f9f7" />
+
+    <EditText
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvmail"
+        android:layout_marginTop="198dp"
+        android:ems="10"
+        android:hint="Date of birth"
+        android:inputType="date"
+        android:textColor="#8b1d11"
+        android:textColorHint="#f5f9f7" />
+
+    <EditText
+        android:id="@+id/btnnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tvmail"
+        android:layout_marginBottom="213dp"
+        android:ems="10"
+        android:hint="Phone Number "
+        android:inputType="phone"
+        android:textColor="#8b1d11"
+        android:textColorHint="#f5f9f7" />
+
+    <EditText
+
+        android:id="@+id/btnnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvmail"
+        android:layout_below="@+id/tvname"
+        android:ems="10"
+        android:hint="ID NO.."
+        android:inputType="number"
+        android:textColor="#8b1d11"
+        android:textColorHint="#f5f9f7" />
+
+    <EditText
+        android:id="@+id/tvphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:textColor="#8b1d11"
+        android:textColorHint="#f5f9f7" />
+
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnnext"
+        android:layout_marginEnd="39dp"
+        android:background="#0f1012"
+        android:text="Admin Login"
+        android:textAlignment="textStart"
+        android:textColor="#d11828"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/btnconst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvmail"
+        android:layout_marginTop="164dp"
+        android:ems="10"
+        android:hint="Constituency"
+        android:inputType="textPersonName"
+        android:textColor="#8b1d11"
+        android:textColorHint="#f5f9f7" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="11dp"
+        android:text="Register Here"
+        android:textColor="#ffef0a"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tvmail"
+        android:layout_marginBottom="125dp"
+        android:background="#0f1012"
+        android:text="Save"
+        android:textColor="#ffef0a"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tvmail"
+        android:layout_marginBottom="30dp"
+        android:background="#0f1012"
+        android:text="Proceed"
+        android:textColor="#d11828"
+        android:textSize="20sp" />
+
+</RelativeLayout>
